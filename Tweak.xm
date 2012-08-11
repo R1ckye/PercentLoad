@@ -14,6 +14,4 @@ NSLog(str);
 return str;
 return @"a"; 
 }
-//-(id)realDisplayName { return @"b"; }
-//-(id)leafIdentifier { return @"c"; }
 %end
