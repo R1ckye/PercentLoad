@@ -1,0 +1,8 @@
+Package: com.rickye.percentload
+Name: PercentLoad
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Replaces Loading... text with percent when downloading apps
+Maintainer: Rickye
+Author: Rickye
+Section: Tweaks
