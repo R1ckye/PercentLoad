@@ -1,7 +1,5 @@
 @interface SBDownloadingIcon
 -(id)displayName;
--(id)realDisplayName;
--(id)leafIdentifier;
 -(float)progress;
 @end
 
@@ -9,9 +7,7 @@
 -(id)displayName { 
 float prog = [self progress];
 int prog10 = prog * 100;
-NSString *str = [NSString stringWithFormat:@"%i\%", prog10];
-NSLog(str);
+NSString *str = [NSString stringWithFormat:@"%i\%%", prog10];
 return str;
-return @"a"; 
 }
 %end
